@@ -1,0 +1,12 @@
+{
+    "name": "meuprojeto",
+    "version": "1.0.0",
+    "description": "Exemplo de projeto Node.js para CI/CD",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo 'Inserir comandos de teste aqui'"
+    },
+    "author": "Seu Nome",
+    "license": "ISC"
+  }
+  

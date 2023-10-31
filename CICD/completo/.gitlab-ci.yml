@@ -1,0 +1,15 @@
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  script:
+    - echo "Buildando a função soma no arquivo main"
+    - echo "Como é uma função simples, não é necessário a build do ambiente ou chamar o pip"
+
+test:
+  stage: test
+  script:
+    - echo "Testando a função soma com o script de teste"
+    - python teste.py
